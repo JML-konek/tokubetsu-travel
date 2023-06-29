@@ -1,6 +1,6 @@
 import { FaSearchLocation } from 'react-icons/fa';
 
-import background from '/assets/ilocos-1.mp4';
+import background from './assets/ilocos-1.mp4';
 
 const Hero = () => {
   return (
