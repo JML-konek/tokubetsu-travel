@@ -11,9 +11,9 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex w-full justify-between items-center h-20 px-5 font-semibold absolute z-10 text-white">
+    <header className="flex w-full justify-between items-center h-20 px-10 font-semibold absolute z-10 text-white">
       <div className="flex items-center gap-1">
-        <SiYourtraveldottv size={30} />
+        <SiYourtraveldottv size={50} className=" hover:animate-bounce" />
         <h1>TRAVEL.</h1>
       </div>
       <ul className="hidden md:flex">
@@ -42,7 +42,7 @@ const Navbar = () => {
         onClick={slideNav}
         className={
           nav
-            ? 'absolute left-0 top-0 w-full bg-gray-300 rounded-sm px-4 py-7 flex flex-col duration-500 md:hidden'
+            ? 'absolute left-0 top-0 w-full bg-gray-300 rounded-sm px-4 py-8 flex flex-col duration-500 md:hidden'
             : 'absolute left-[-100%] '
         }
       >
