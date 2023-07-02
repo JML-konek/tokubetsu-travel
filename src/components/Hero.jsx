@@ -19,8 +19,8 @@ const Hero = () => {
       {/* Content */}
 
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center p-4 font-poppins font-bold">
-        <h1 className="content">Lorem, ipsum dolor.</h1>
-        <h2 className="content">Lorem ipsum dolor sit, amet consectetur.</h2>
+        <h1 className="content">Welcome to Lorem, ipsum dolor.</h1>
+        <h2 className="content">The North is Waiting</h2>
         <form
           className="flex justify-between items-center max-w-[700px] mx-auto w-full border p-1 rounded-full text-black
          bg-green-200/90"
