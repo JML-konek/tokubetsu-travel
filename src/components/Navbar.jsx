@@ -39,14 +39,13 @@ const Navbar = () => {
       {/* // Mobile // */}
 
       <div
-        onClick={slideNav}
         className={
           nav
-            ? 'absolute left-0 top-0 w-full bg-gray-300 rounded-sm px-4 py-8 flex flex-col duration-500 md:hidden'
-            : 'absolute left-[-100%] '
+            ? 'absolute left-0 top-0 w-full bg-gray-300 rounded-sm px-4 py-8 flex flex-col  duration-500 md:hidden'
+            : 'absolute left-[-100%]'
         }
       >
-        <ul className=" ">
+        <ul>
           <li>Destination</li>
           <li>Tour</li>
           <li>Packages</li>
