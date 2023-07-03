@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs';
 
 const sliderData = [
-  { img: '/assets/norte-1.webp' },
-  { img: '/assets/norte-2.jpg' },
-  { img: '/assets/norte-3.jpg' },
+  { img: './assets/norte-1.webp' },
+  { img: './assets/norte-2.jpg' },
+  { img: './assets/norte-3.jpg' },
 ];
 
 function Carousel() {
