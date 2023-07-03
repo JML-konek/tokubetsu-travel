@@ -1,15 +1,10 @@
 import React, { useState } from 'react';
 import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs';
-
-const sliderData = [
-  { img: './assets/norte-1.webp' },
-  { img: './assets/norte-2.jpg' },
-  { img: './assets/norte-3.jpg' },
-];
+import Slider from './Data';
 
 function Carousel() {
   const [slide, setslide] = useState(0);
-  const length = sliderData.length;
+  const length = Slider.length;
   const prevSlide = () => {
     setslide(slide === length - 1 ? 0 : slide + 1);
   };
@@ -29,7 +24,7 @@ function Carousel() {
         onClick={nextSlide}
         className="absolute top-[50%] right-8 cursor-pointer"
       />
-      {sliderData.map((item, index) => (
+      {Slider.map((item, index) => (
         <div className={index === slide ? 'w-full object-cover' : null}>
           {index === slide && <img className="w-full h-full " src={item.img} />}
         </div>
